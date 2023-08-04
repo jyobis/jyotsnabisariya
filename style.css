@@ -105,12 +105,16 @@ h2 {
   color: var(--accent-color);
 }
 
+.a {
+    color: white;
+}
+
 /*=============== PORTFOLIO CONTAINER ===============*/
 
 .portfolio {
   display: flex;
   background: var(--background-color-2);
-  height: 80vh;
+  height: 85vh;
   width: 85vw;
   max-width: 1200px;
   border-radius: var(--border-radius);
