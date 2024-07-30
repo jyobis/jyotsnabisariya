@@ -83,7 +83,7 @@ h3,
 h4,
 h5,
 h6 {
-  color:#27a776);
+  color: var(--heading-color);
   font-family: var(--heading-font);
 }
 
@@ -671,6 +671,7 @@ h6 {
 .page-title .heading h1 {
   font-size: 64px;
   font-weight: 400;
+  color:#37c28d;
 }
 
 .page-title .heading .cta-btn {
@@ -1378,6 +1379,17 @@ section,
   transition: 0.5s;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+button{
+  position: absolute;
+  left:45%;
+  color:white;
+  background-color: #27a776;
+  border-radius: 0.375rem;
+  height: 50px;
+  width: 180px;
+ 
 }
 
 .contact .php-email-form button[type=submit]:hover {
